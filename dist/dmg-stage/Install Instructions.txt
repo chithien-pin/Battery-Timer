@@ -1,0 +1,1 @@
+Drag BattTimer.app to Applications. First open: Right-click → Open.
