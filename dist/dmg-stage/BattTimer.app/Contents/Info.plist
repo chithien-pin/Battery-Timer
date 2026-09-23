@@ -10,6 +10,10 @@
 	<string>BattTimer</string>
 	<key>CFBundleExecutable</key>
 	<string>BattTimer</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.batterypin.BattTimer</string>
 	<key>CFBundleInfoDictionaryVersion</key>
