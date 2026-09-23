@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3026A458FE946D4A1AF84E0 /* UntilTimeFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14659A9D99347D8BB18FE5E /* UntilTimeFields.swift */; };
+		1625E7A00B524D0FB2F7C9E3 /* DurationHMSFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670C981D2D24BF6BFA5CC1E /* DurationHMSFields.swift */; };
+		BBAC487300CD4798BDB922C3 /* BattTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0056240E53CD4F3F9EA5DD20 /* BattTimerApp.swift */; };
+		5D9906CB759049AD9F2DA576 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C6F5C9126743EE9E1815C3 /* TimerModel.swift */; };
+		565D1A45336E4F6E95AA3519 /* TimerTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3180470ED5347E7821C5562 /* TimerTheme.swift */; };
+		C7BE849CB91A4DE3975AD679 /* TimerPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E5ED317F3482BB69DC9A8 /* TimerPreset.swift */; };
+		11C01723EE644790B9BEF453 /* TimerHistoryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A16C32AE734619B7947A2E /* TimerHistoryEntry.swift */; };
+		8F76D139797044429B6242FE /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63EE9D7FF3745E5B3964482 /* TimerViewModel.swift */; };
+		7A6F3B64E4814BD39CC79B8B /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7B261B0A240FDBC97BF24 /* AppViewModel.swift */; };
+		FE11BA6496F3462397B93E3D /* TimerWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AFDF7224E3472D9F05B85B /* TimerWindowView.swift */; };
+		7168696C94E649C9842A11FC /* ControlWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF48BDDF5BE4C73BE3E530E /* ControlWindowView.swift */; };
+		7344E44999E5449080F8F891 /* ControlWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD6ED3D5B8F4535B4DCEA6A /* ControlWindowPresenter.swift */; };
+		B92DCA9F6D51408799E96F67 /* TimerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480C5AF1B5914FE0BCBCD607 /* TimerControlsView.swift */; };
+		27947E2AEBDF4249902F4949 /* TimerOptionsPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E6855A948B48E0835C8E66 /* TimerOptionsPopover.swift */; };
+		552AC68A7CDA49A7A8E65CB8 /* NewTimerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE79ED694741748F93E4F3 /* NewTimerSheet.swift */; };
+		446CAF2EA7954EE996D99858 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA9BF9384D658576DF9F /* SettingsView.swift */; };
+		A1871D20D9DC4D8CAE675006 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54410316030F4C4D8E13E78B /* HistoryView.swift */; };
+		2F0CD6211A47424EA908DAAD /* FloatingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C94220EE44F61B7F47362 /* FloatingPanel.swift */; };
+		1B43AABFCDCC4414850417A8 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC72B0F1F8348CB9FAB7769 /* WindowManager.swift */; };
+		E463987220004965AD7FC713 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F15EDAA98934677B0336EC9 /* SoundService.swift */; };
+		5A95AF73FC7340B9A77F0553 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B911E1BF8194A47B1152D1C /* NotificationService.swift */; };
+		8FBB94357E9D4B168C834E21 /* HotKeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE622D6975BA4BA4A1808105 /* HotKeyService.swift */; };
+		496A005CFAAE494DA66A85F0 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDDEB8124427BBCCF584B /* PersistenceService.swift */; };
+		D2FA8AB71A564E9BBE45BCD4 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C363E5ED9243559A5078E3 /* MenuBarController.swift */; };
+		72A3C4CC1F554700B2EFD871 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7AAF9E34B345A7904DE444 /* TimeFormatter.swift */; };
+		F6393222FA644A9D853C8CE0 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C814594D7B594D3C93E4852E /* ShakeEffect.swift */; };
+		43E858BA47984DC6890477A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9EF2FE475B4228B38FF61E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A14659A9D99347D8BB18FE5E /* UntilTimeFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntilTimeFields.swift; sourceTree = "<group>"; };
+		4670C981D2D24BF6BFA5CC1E /* DurationHMSFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationHMSFields.swift; sourceTree = "<group>"; };
+		E9390622410342D7AFA3E57F /* BattTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0056240E53CD4F3F9EA5DD20 /* BattTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattTimerApp.swift; sourceTree = "<group>"; };
+		83C6F5C9126743EE9E1815C3 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		B3180470ED5347E7821C5562 /* TimerTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTheme.swift; sourceTree = "<group>"; };
+		090E5ED317F3482BB69DC9A8 /* TimerPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPreset.swift; sourceTree = "<group>"; };
+		E7A16C32AE734619B7947A2E /* TimerHistoryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerHistoryEntry.swift; sourceTree = "<group>"; };
+		D63EE9D7FF3745E5B3964482 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		8CA7B261B0A240FDBC97BF24 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		E5AFDF7224E3472D9F05B85B /* TimerWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerWindowView.swift; sourceTree = "<group>"; };
+		BBF48BDDF5BE4C73BE3E530E /* ControlWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlWindowView.swift; sourceTree = "<group>"; };
+		7FD6ED3D5B8F4535B4DCEA6A /* ControlWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlWindowPresenter.swift; sourceTree = "<group>"; };
+		480C5AF1B5914FE0BCBCD607 /* TimerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerControlsView.swift; sourceTree = "<group>"; };
+		25E6855A948B48E0835C8E66 /* TimerOptionsPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOptionsPopover.swift; sourceTree = "<group>"; };
+		FEDE79ED694741748F93E4F3 /* NewTimerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimerSheet.swift; sourceTree = "<group>"; };
+		5250BA9BF9384D658576DF9F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		54410316030F4C4D8E13E78B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B05C94220EE44F61B7F47362 /* FloatingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanel.swift; sourceTree = "<group>"; };
+		FDC72B0F1F8348CB9FAB7769 /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
+		2F15EDAA98934677B0336EC9 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		2B911E1BF8194A47B1152D1C /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		EE622D6975BA4BA4A1808105 /* HotKeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyService.swift; sourceTree = "<group>"; };
+		878EDDEB8124427BBCCF584B /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		65C363E5ED9243559A5078E3 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		CF7AAF9E34B345A7904DE444 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		C814594D7B594D3C93E4852E /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		8C9EF2FE475B4228B38FF61E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74567BC281C5495A9A656111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DF195DEB6994615ADDDE13D = {
+			isa = PBXGroup;
+			children = (
+				F68A271B31DE499095099075 /* BattTimer */,
+				E45B9BA5CA714400ADCA41CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E45B9BA5CA714400ADCA41CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9390622410342D7AFA3E57F /* BattTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68A271B31DE499095099075 /* BattTimer */ = {
+			isa = PBXGroup;
+			children = (
+				9F54CE5D55FC462183E408CC /* App */,
+				CC5C1CAD4757428792002A33 /* Models */,
+				799D3790AD5444BDAB57C002 /* ViewModels */,
+				64079D5CB3DF45BD931B567E /* Views */,
+				40C1E8E8AA5347DB9582D6FC /* Window */,
+				A03A7B26ADFC41CA8A4D5C2F /* Services */,
+				13C3E1F80370439AAF27D904 /* Utilities */,
+				CA90FE2B43154FBA8F90D07A /* Resources */,
+			);
+			path = BattTimer;
+			sourceTree = "<group>";
+		};
+		9F54CE5D55FC462183E408CC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0056240E53CD4F3F9EA5DD20 /* BattTimerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CC5C1CAD4757428792002A33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83C6F5C9126743EE9E1815C3 /* TimerModel.swift */,
+				B3180470ED5347E7821C5562 /* TimerTheme.swift */,
+				090E5ED317F3482BB69DC9A8 /* TimerPreset.swift */,
+				E7A16C32AE734619B7947A2E /* TimerHistoryEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		799D3790AD5444BDAB57C002 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D63EE9D7FF3745E5B3964482 /* TimerViewModel.swift */,
+				8CA7B261B0A240FDBC97BF24 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BD4725B383D3466395BE102A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A14659A9D99347D8BB18FE5E /* UntilTimeFields.swift */,
+				4670C981D2D24BF6BFA5CC1E /* DurationHMSFields.swift */,
+				480C5AF1B5914FE0BCBCD607 /* TimerControlsView.swift */,
+				25E6855A948B48E0835C8E66 /* TimerOptionsPopover.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		96767070A1E8420C9B5DFA65 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE79ED694741748F93E4F3 /* NewTimerSheet.swift */,
+				5250BA9BF9384D658576DF9F /* SettingsView.swift */,
+				54410316030F4C4D8E13E78B /* HistoryView.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		64079D5CB3DF45BD931B567E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFDF7224E3472D9F05B85B /* TimerWindowView.swift */,
+				BBF48BDDF5BE4C73BE3E530E /* ControlWindowView.swift */,
+				7FD6ED3D5B8F4535B4DCEA6A /* ControlWindowPresenter.swift */,
+				BD4725B383D3466395BE102A /* Components */,
+				96767070A1E8420C9B5DFA65 /* Sheets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40C1E8E8AA5347DB9582D6FC /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				B05C94220EE44F61B7F47362 /* FloatingPanel.swift */,
+				FDC72B0F1F8348CB9FAB7769 /* WindowManager.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		A03A7B26ADFC41CA8A4D5C2F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2F15EDAA98934677B0336EC9 /* SoundService.swift */,
+				2B911E1BF8194A47B1152D1C /* NotificationService.swift */,
+				EE622D6975BA4BA4A1808105 /* HotKeyService.swift */,
+				878EDDEB8124427BBCCF584B /* PersistenceService.swift */,
+				65C363E5ED9243559A5078E3 /* MenuBarController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		13C3E1F80370439AAF27D904 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CF7AAF9E34B345A7904DE444 /* TimeFormatter.swift */,
+				C814594D7B594D3C93E4852E /* ShakeEffect.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CA90FE2B43154FBA8F90D07A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C9EF2FE475B4228B38FF61E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6025D543A4574DBBA65F9552 /* BattTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0005240C9354BB88A7149F2 /* Build configuration list for PBXNativeTarget "BattTimer" */;
+			buildPhases = (
+				7E9C667B801449DB9249E979 /* Sources */,
+				74567BC281C5495A9A656111 /* Frameworks */,
+				2A4DE33EB974445E8865809E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattTimer;
+			productName = BattTimer;
+			productReference = E9390622410342D7AFA3E57F /* BattTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75805A0598D54D7B8E9FA614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6025D543A4574DBBA65F9552 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E5DE515E0D2F4B00BC5ECABE /* Build configuration list for PBXProject "BattTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DF195DEB6994615ADDDE13D;
+			productRefGroup = E45B9BA5CA714400ADCA41CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6025D543A4574DBBA65F9552 /* BattTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A4DE33EB974445E8865809E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E858BA47984DC6890477A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E9C667B801449DB9249E979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3026A458FE946D4A1AF84E0 /* UntilTimeFields.swift in Sources */,
+				1625E7A00B524D0FB2F7C9E3 /* DurationHMSFields.swift in Sources */,
+				BBAC487300CD4798BDB922C3 /* BattTimerApp.swift in Sources */,
+				5D9906CB759049AD9F2DA576 /* TimerModel.swift in Sources */,
+				565D1A45336E4F6E95AA3519 /* TimerTheme.swift in Sources */,
+				C7BE849CB91A4DE3975AD679 /* TimerPreset.swift in Sources */,
+				11C01723EE644790B9BEF453 /* TimerHistoryEntry.swift in Sources */,
+				8F76D139797044429B6242FE /* TimerViewModel.swift in Sources */,
+				7A6F3B64E4814BD39CC79B8B /* AppViewModel.swift in Sources */,
+				FE11BA6496F3462397B93E3D /* TimerWindowView.swift in Sources */,
+				7168696C94E649C9842A11FC /* ControlWindowView.swift in Sources */,
+				7344E44999E5449080F8F891 /* ControlWindowPresenter.swift in Sources */,
+				B92DCA9F6D51408799E96F67 /* TimerControlsView.swift in Sources */,
+				27947E2AEBDF4249902F4949 /* TimerOptionsPopover.swift in Sources */,
+				552AC68A7CDA49A7A8E65CB8 /* NewTimerSheet.swift in Sources */,
+				446CAF2EA7954EE996D99858 /* SettingsView.swift in Sources */,
+				A1871D20D9DC4D8CAE675006 /* HistoryView.swift in Sources */,
+				2F0CD6211A47424EA908DAAD /* FloatingPanel.swift in Sources */,
+				1B43AABFCDCC4414850417A8 /* WindowManager.swift in Sources */,
+				E463987220004965AD7FC713 /* SoundService.swift in Sources */,
+				5A95AF73FC7340B9A77F0553 /* NotificationService.swift in Sources */,
+				8FBB94357E9D4B168C834E21 /* HotKeyService.swift in Sources */,
+				496A005CFAAE494DA66A85F0 /* PersistenceService.swift in Sources */,
+				D2FA8AB71A564E9BBE45BCD4 /* MenuBarController.swift in Sources */,
+				72A3C4CC1F554700B2EFD871 /* TimeFormatter.swift in Sources */,
+				F6393222FA644A9D853C8CE0 /* ShakeEffect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		314E05FDA8F64F10A2536078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF5DE5CD2038483588F311DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		13353540110E48C59C4099ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BattTimer/Resources/BattTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BattTimer/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batterypin.BattTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F136679B120647B4BEED6FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BattTimer/Resources/BattTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BattTimer/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batterypin.BattTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5DE515E0D2F4B00BC5ECABE /* Build configuration list for PBXProject "BattTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314E05FDA8F64F10A2536078 /* Debug */,
+				FF5DE5CD2038483588F311DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0005240C9354BB88A7149F2 /* Build configuration list for PBXNativeTarget "BattTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13353540110E48C59C4099ED /* Debug */,
+				F136679B120647B4BEED6FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75805A0598D54D7B8E9FA614 /* Project object */;
+}

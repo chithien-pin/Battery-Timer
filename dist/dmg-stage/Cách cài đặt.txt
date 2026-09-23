@@ -1,0 +1,18 @@
+BattTimer 1.0 — Hướng dẫn cài đặt
+================================
+
+1. Kéo BattTimer.app vào thư mục Applications.
+2. Mở Applications → BattTimer.
+
+Nếu macOS báo "không thể mở vì nhà phát triển không xác định":
+  • Chuột phải (hoặc Control-click) vào BattTimer.app → chọn Open
+  • Nhấn Open lần nữa trong hộp thoại
+  hoặc
+  • System Settings → Privacy & Security → vẫn mở BattTimer
+
+Lần đầu chạy, cho phép thông báo Notifications khi được hỏi.
+
+Yêu cầu: macOS 13.0 trở lên (Apple Silicon hoặc Intel).
+
+Ghi chú: bản này ký ad-hoc (chưa có Apple Developer ID),
+nên Gatekeeper sẽ cảnh báo lần đầu — đó là bình thường.

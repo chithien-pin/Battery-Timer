@@ -1,0 +1,17 @@
+BattTimer 1.0 — Install
+=======================
+
+1. Drag BattTimer.app into Applications.
+2. Open it from Applications.
+
+If macOS says the developer cannot be verified:
+  • Right-click (Control-click) BattTimer.app → Open
+  • Click Open again in the dialog
+  or allow it under System Settings → Privacy & Security.
+
+Allow Notifications when prompted on first launch.
+
+Requires macOS 13.0+ (Apple Silicon or Intel).
+
+Note: This build is ad-hoc signed (no Apple Developer ID),
+so Gatekeeper will warn on first open — that is expected.
